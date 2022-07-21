@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#container {
+  width: fit-content;
+  margin: 75px auto;
+  border: 3px solid #212121;
+  border-radius: 5px;
+  background-color: #212121;
+  padding: 6px;
+  box-shadow: 1px 3px 4px rgb(61, 61, 61);
+}
+
+#display {
+  background-color: #3f403b;
+  color: white;
+  margin: 5px;
+  border-radius: 5px;
+  height: 80px;
+  text-align: right;
+  width: 320px;
+  font-size: 30px;
+  font-weight:400;
+  padding: 0 5px;
+
+}
+ 
+
+#keys {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+}
+
+#row1,
+#row2,
+#row3,
+#row4,
+#row5 {
+  display: flex;
+  flex-direction: row;
+  background-color: #212121;
+  width: 100%;
+}
+
+#row1 button,
+#row2 button,
+#row3 button,
+#row4 button,
+#row5 button {
+  width: 70px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  background-color: #f8f1f1;
+  font-weight: bolder;
+  font-size: 18px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s linear;
+}
+
+#keys div button:hover {
+  background-color: #e4f2ff;
+}
+
+#keys #AC {
+  background-color: #bb8fce;
+}
+
+#keys #equal {
+  background-color: #48c9b0;
+}
+
+#keys #plus-minus,
+#keys #decimal {
+  background-color: #bb8fce;
+}
+
+#keys #division,
+#keys #multiply,
+#keys #add,
+#keys #subtract,
+#keys #percent,
+#keys #backspace {
+  background-color: #fadbd8;
+}
+
+#keys #division:hover,
+#keys #multiply:hover,
+#keys #add:hover,
+#keys #subtract:hover,
+#keys #percent:hover,
+#keys #backspace:hover {
+  background-color: #fdffda;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #A3E4D7;
+}
+
+footer p{
+  text-align: center;
+  margin-bottom: 4px;
+  font-weight: 500;
+
+}
